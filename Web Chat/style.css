@@ -192,3 +192,8 @@ header {
 footer{
     text-align: center;
 }
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
