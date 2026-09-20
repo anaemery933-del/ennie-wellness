@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ennie Wellness - Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="contact-page">
+        <header class="header">
+            <div class="logo-area">
+                <span>EW</span>
+                <h3>Ennie Wellness</h3>
+            </div>
+            </div>
+            <a href="menu.html" class="hamburger">☰</a>
+        </header>
+        
+        <h2>Contact Us</h2>
+            <p>Get in touch with Ennie Wellness to book a service or ask questions.</p>
+            <h3>PHONE</h3>
+            <p>+1 (213)-843-0474</p>
+
+            <h3>TELEGRAM</h3>
+            <p>@enny22x</p>
+
+            <h3>SIGNAL</h3>
+            <p>+1 (213)-843-0474</p>
+
+            <h2 id="booking">Book a Session</h2>
+            <form action="https://formspree.io/f/mljdrkow" method="POST">
+                <label for="name">Full Name*</label><br>
+                <input type="text" name="name" placeholder="Your name">
+                <br><br>
+
+                <label for="email">Email*</label><br>
+                <input type="email" name="email" placeholder="your@email.com">
+                <br><br>
+
+                <label>Phone Number*</label><br>
+                <input type="tel" name="phone" placeholder="Enter phone number" >
+                <br><br>
+
+                <label for="zipcode">Zip Code*</label><br>
+                <input type="text" name="zipcode" placeholder="e.g. 98101" oninput="this.value=this.value.replace(/[^0-9]/g, '')" pattern="[0-]{5}" maxlength="5" inputmode="numeric" required><br><br>
+
+                <label>Preferred Date*</label><br>
+                <input type="date">
+                <br><br>
+
+                <label>Preferred Time*</label><br>
+                <input type="time">
+                <br><br>
+
+                <label for="service">Service Interest*</label><br>
+                <select id="service" name="service">
+                    <option value="">Select a service</option>
+                    <option value="Nuru Massage">Nuru Massage</option>
+                    <option value="Thai Massage">Thai massage</option>
+                    <option value="Postrate Massage">Postrate massage</option>
+                    <option value="Aromatherapy Massage">Aromatherapy massage</option>
+                    <option value="Deep Tissue Massage">Deep Tissue massage</option>
+                    <option value="Girlfriend Experience">GFE</option>
+                </select>
+                <br><br>
+
+                <label for="duration">How long would you like to book?</label>
+                <select id="duration" name="duration" required>
+                    <option value="">Select duration</option>
+                    <option value="60 minutes">60 minutes</option>
+                    <option value="90 minutes">90 minutes</option>
+                    <option value="2 hours">2 hours</option>
+                    <option value="3 hours">3 hours</option>
+                    <option value="4 hours">4 hours</option>
+                    <option value="5 hours">5 hours</option>
+                </select>
+                <br><br>
+
+                <label for="notes">Additional Notes*</label>
+                <br>
+                <textarea id="notes" name="notes" rows="5" placeholder="Any special requests or questions.."></textarea>
+                <br><br>
+
+                <button type="submit" class="submit-button">Book Appointment</button>
+            </form><br>
+            <div class="page-navigation">
+            <a href="reviews.html">⬅️</a>
+            <a href="certification.html">➡️</a>
+    </div>
+    <footer>&copy; 2026 Ennie Wellness. All rights reserved
+            <p>Privacy Policy</p>
+        </footer>
+
+
+    </body>
+</html>

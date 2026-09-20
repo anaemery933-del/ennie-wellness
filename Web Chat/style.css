@@ -1,0 +1,194 @@
+/* General page styling*/
+body{
+    background-color: #F5F0E6;
+    color:#3E3028;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+.menu-page{
+    text-align: center;
+    font-size:xx-large;
+
+}
+
+/* Main headings*/
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#315C4A;
+}
+
+h2{
+    text-align: center;
+    color:#315C4A
+
+}
+h3{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+strong{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+/* Paragraphs*/
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Links*/
+a{
+    color:#315C4A;
+    text-decoration: none;
+}
+
+/* Buttons*/
+button{
+    background-color: #315C4A;
+    color: white;
+    padding:12px 30px;
+    border:none;
+    border-radius: 5px;
+}
+
+.home{
+    background-image: url("bg1.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    min-height:100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+          
+}
+.service img{
+    width:100%;
+    max-width:500px;
+    height: 300px;
+    object-fit: cover;
+    display:block;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+.service{
+    display:block;
+    text-align:center;
+}
+.service h2{
+    display:block;
+}
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+}
+
+.star-rating input:checked ~ label {
+    color: gold;
+}
+.gallery{
+    grid-template-columns: 1fr 1fr;
+    display:grid;
+    max-width:800px;
+    gap:20px;
+    margin:0 auto;
+    width:90%;
+}
+.gallery img,
+.gallery video{
+    width:100%;
+    height:80%;
+    object-fit: cover;
+    margin:0 ;
+    display:block;
+}
+.hamburger{
+    position:fixed;
+    color:#3c8b52;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    top:10px;
+    right:15px;
+    z-index: 1000;
+}
+.hamburger:hover{
+    color:#2d6f41;
+}
+/* All website buttons */
+
+.booking-button,
+.submit-button,
+.menu-button {
+
+    display: inline-block;
+    background-color: #095926;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.booking-button:hover,
+.submit-button:hover,
+.menu-button:hover {
+
+    background-color: #084818;
+}
+.page-navigation{
+    display: flex;
+    justify-content:center;
+    margin:30px 0;
+    gap:60px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #F5F0E6;
+}    
+    
+
+.logo-area {
+    text-align: center;
+    color:#5edb3a;
+    display: flex;
+}
+
+.logo-area span {
+    font-family: cursive;
+    font-size: 35px;
+    position:fxed;
+}
+.logo-area h3{
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+}
